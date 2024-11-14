@@ -1,3 +1,5 @@
+/*
+
 // File 1: astronomical_constants.h
 #ifndef ASTRONOMICAL_CONSTANTS_H
 #define ASTRONOMICAL_CONSTANTS_H
@@ -36,7 +38,8 @@ struct NutationTerm {
 };
 
 #endif
-
+*/
+/*
 // File 2: nutation_terms.h
 #ifndef NUTATION_TERMS_H
 #define NUTATION_TERMS_H
@@ -56,7 +59,9 @@ const NutationTerm NUTATION_TERMS[] PROGMEM = {
 const int NUTATION_TERMS_COUNT = sizeof(NUTATION_TERMS) / sizeof(NutationTerm);
 
 #endif
+*/
 
+/*
 // File 3: vsop87_terms.h
 #ifndef VSOP87_TERMS_H
 #define VSOP87_TERMS_H
@@ -91,6 +96,7 @@ const VSOP87Term VSOP87_R0[] PROGMEM = {
 };
 
 #endif
+*/
 
 // Main implementation file: high_precision_sun.cpp
 #include <Arduino.h>
